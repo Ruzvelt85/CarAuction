@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.WebApi", "src\CarAuctionApi.WebApi\CarAuctionApi.WebApi.csproj", "{15F74236-C602-4AB1-939B-854E06E822C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.Tests", "src\CarAuctionApi.Tests\CarAuctionApi.Tests.csproj", "{86762BAB-C66E-4DCF-89A7-2AC4042B7C1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.Dto", "src\CarAuctionApi.Dto\CarAuctionApi.Dto.csproj", "{CBE609A4-E72E-4A89-8288-014C5FFAF257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.Data", "src\CarAuctionApi.Data\CarAuctionApi.Data.csproj", "{B18E0C6C-96CC-4A84-AB7F-BEBE25B8EB6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.Domain", "src\CarAuctionApi.Domain\CarAuctionApi.Domain.csproj", "{316B1BA9-F76E-46DA-BE93-57471BE80EB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarAuctionApi.Patterns", "src\CarAuctionApi.Patterns\CarAuctionApi.Patterns.csproj", "{03518D4B-5E93-45F2-A64A-E853413B0D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAuctionApi.ServiceInfrastructure", "src\CarAuctionApi.ServiceInfrastructure\CarAuctionApi.ServiceInfrastructure.csproj", "{B03BDB4E-7FCC-4C57-A1E3-9070B562CA9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F74236-C602-4AB1-939B-854E06E822C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F74236-C602-4AB1-939B-854E06E822C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F74236-C602-4AB1-939B-854E06E822C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F74236-C602-4AB1-939B-854E06E822C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86762BAB-C66E-4DCF-89A7-2AC4042B7C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86762BAB-C66E-4DCF-89A7-2AC4042B7C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86762BAB-C66E-4DCF-89A7-2AC4042B7C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86762BAB-C66E-4DCF-89A7-2AC4042B7C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE609A4-E72E-4A89-8288-014C5FFAF257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE609A4-E72E-4A89-8288-014C5FFAF257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE609A4-E72E-4A89-8288-014C5FFAF257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE609A4-E72E-4A89-8288-014C5FFAF257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18E0C6C-96CC-4A84-AB7F-BEBE25B8EB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18E0C6C-96CC-4A84-AB7F-BEBE25B8EB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18E0C6C-96CC-4A84-AB7F-BEBE25B8EB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18E0C6C-96CC-4A84-AB7F-BEBE25B8EB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316B1BA9-F76E-46DA-BE93-57471BE80EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316B1BA9-F76E-46DA-BE93-57471BE80EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316B1BA9-F76E-46DA-BE93-57471BE80EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316B1BA9-F76E-46DA-BE93-57471BE80EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03518D4B-5E93-45F2-A64A-E853413B0D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03518D4B-5E93-45F2-A64A-E853413B0D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03518D4B-5E93-45F2-A64A-E853413B0D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03518D4B-5E93-45F2-A64A-E853413B0D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03BDB4E-7FCC-4C57-A1E3-9070B562CA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03BDB4E-7FCC-4C57-A1E3-9070B562CA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03BDB4E-7FCC-4C57-A1E3-9070B562CA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03BDB4E-7FCC-4C57-A1E3-9070B562CA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5BB9542-298E-4464-89BF-04E6CDD0C844}
+	EndGlobalSection
+EndGlobal
