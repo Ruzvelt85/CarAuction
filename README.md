@@ -11,26 +11,35 @@ InMemory Database is used for storing data.
 The solution consists of 6 projects:
 
 **WebApi**: Contains the API controllers, query handler, command handlers, validators, action filter, mapping configurations, etc.
+
 **Domain**: Defines domain model and custom exception classes
+
 **Dto**: Contains DTO models for requests and responses
+
 **Patterns**: Contains core interfaces.
+
 **Data**: Contains interaction with data layer (EF Core context, repositories, unit of work).
+
 **Tests**: Contains unit tests for controllers, query handler, command handlers, validators, and mapping.
 
-This structure can be a little bit extensive or even redundant for the scope of the given task,
-but it will be able to accomodate the following features well.
-It was decided not to create separate entities for each type of vehicle - in order not to bring a redundant complexity within a scope of this task.
-But in case of appearing a specific business logics for different vehicles, they can be created.
+This structure can be a little bit extensive or even redundant for the scope of the given task, but it will be able to accomodate the following features well.
+
+It was decided not to create separate entities for each type of vehicle - in order not to bring a redundant complexity within a scope of this task. But in case of appearing a specific business logics for different vehicles, they can be created.
 
 
 ###  Requests
 
 **POST /Inventory**: Adds a vehicle to the auction inventory.
+
 Each vehicle has its type, a unique identifier, and respective attributes based on its type.
 In case of presence of unappropriate attribute (e.g., Load Capacity for Sedan type), the API will return BadRequest result.
+
 **GET /Inventory**: Searches for vehicles by type, manufacturer, model, or year; the filter can be empty
+
 **POST /Auctions**: Starts the auction for the specific vehicle
+
 **PUT /Auctions**: Closes the auction for the specific vehicle
+
 **POST /Bids**: Places a bid on the vehicle within an active auction
 
 
